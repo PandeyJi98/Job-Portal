@@ -1,0 +1,46 @@
+.formBtn{
+    background-color: #90b0d0;
+    max-height: 100%;
+    width: 500px;
+    padding: 20px;
+   }
+   .formBtn button {
+    align-items: center;
+    height: 45px;
+    width: 130px;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    margin-top:15px;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 3px 3px 6px #c5c5c5,
+    -3px -3px 6px #DBB8C9;
+   }
+   .formBtn button:active {
+    color: #666;
+    
+    box-shadow: inset 6px 6px 18px #c5c5c5,
+                inset -6px -6px 18px #DBB8C9;
+   }
+  .formBtn input ,textarea,select {
+    margin-top: 10px;
+    /* padding-top: 10px; */
+    background-color: #dee2e6;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 0.6rem;
+    color: #141619;
+    /* box-shadow: 0 0.4rem #DBB8C9; */
+    /* cursor: pointer; */
+   }
+   
+   .formBtn input,textarea,select:focus {
+    outline-color: #bb4e83;
+   }
+
+  
