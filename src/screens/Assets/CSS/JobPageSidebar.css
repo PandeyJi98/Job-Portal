@@ -1,0 +1,53 @@
+.sidebar_section{
+    position: sticky;
+    top: 25px;
+    overflow: hidden;
+    
+}
+
+.sidebar_container{
+    height: 80vh;
+    background-color: rgb(243, 243, 243);
+    width: max-content;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-left: 50px;
+    margin-top: 60px;
+    
+}
+
+.category_section{
+    max-width: 100%;
+    margin-top: 30px;  
+    margin-left: 20px;  
+    margin-right: 20px;  
+}
+
+.jobType_container{
+    width: 100% ;
+    
+}
+
+.search_section{
+
+    margin-top: 30px;  
+    margin-left: 20px;  
+    margin-right: 20px; 
+    /* width: 100%; */
+    /* background-color: aquamarine;    */
+}
+
+.experienceAndType_section{
+    margin: 20px;
+    /* margin-left: 20px;   */
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:992px) {
+    .sidebar_container{
+        margin: auto;
+        width: 60%;
+        height: auto;
+    }
+}

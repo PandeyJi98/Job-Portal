@@ -1,0 +1,103 @@
+.jobDescription_container{
+    text-align: center;
+    margin-bottom: 50px
+}
+ .jobCard_container p{
+    padding-top: 10px;
+    margin-bottom: 0 !important;
+ }
+.jobDecription_titleSection{
+    margin-top: 30px;
+    padding: 20px;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+}
+
+.jobCard_section{
+    margin-top: 30px;
+    width: auto;
+    margin: 20px;
+}
+
+.jobCard_container{
+    padding: 20px;
+    min-height: fit-content;
+    /* min-width: fit-content; */
+    background-color: #E4E5E2;
+    max-width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.aboutCompany_section{
+    margin-top: 50px;
+    margin: 20px;
+}
+
+.about_company{
+    border: 2px solid gray;
+}
+
+/* .aboutCompany_headerContainer{
+    padding: 20px;
+} */
+
+.aboutCompany_container{
+    min-height: fit-content;
+    background-color: #E4E5E2;
+    padding: 20px;
+    /* max-width: 100vh; */
+    max-width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.aboutJobRole_section{
+    margin-top: 50px;
+    width: auto;
+    margin:20px;
+}
+
+.aboutJobRole_container{
+    min-height: fit-content;
+    background-color: #E4E5E2;
+    padding: 20px;
+    /* max-width: 100vh; */
+    max-width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:768px){
+    .jobDescription_container{
+        width: auto;
+    }
+}
+
+/* job Role Media Quries start */
+@media (max-width:480px){
+    .job_type{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}
+@media (max-width:768px){
+    .job_role{
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+}
+
+/* job Role Media Quries end */
+
+@media (max-width:480px){
+    .on_jobportal{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}

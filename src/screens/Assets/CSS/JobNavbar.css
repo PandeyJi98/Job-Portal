@@ -1,0 +1,22 @@
+
+
+@media (max-width: 576px){
+  .dropwodn-item::before{
+    transform: rotate(90deg);
+  }
+  
+}
+
+
+.dropdown-toggle::after {
+ 
+  float: right;
+  margin-top: 8px;
+}
+
+.dropdown:hover{
+  background-color: #81bea2 !important;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: -0px -0px 50px #198754;
+}

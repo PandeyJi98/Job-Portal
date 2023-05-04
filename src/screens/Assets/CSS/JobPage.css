@@ -1,0 +1,13 @@
+@media only screen and (max-width: 992px) {
+    .mediaQ  {
+      /* background-color: black; */
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+  }
+
+  .stickyC{
+    position: sticky;top: 20px;
+  }
